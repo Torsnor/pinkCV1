@@ -4,6 +4,7 @@ h1 {
     text-align: center;
     text-shadow: 20px 8px 8px mediumvioletred;
     color: darkslategray;
+    background-color: greenyellow;
 }
 
 h2 {
@@ -13,7 +14,12 @@ h2 {
     font-style: oblique;
     text-align: center;
     text-shadow: 0px 10px 2px rgb(143, 190, 238);
-    color: mintcream;
+    color: darkslategray;
+}
+
+em {
+    text-align: right;
+    font-family: monospace;
 }
 
 .class1 {
@@ -21,6 +27,7 @@ h2 {
     display: flex;
     background-color: lightslategray;
     flex-direction: column;
+    align-items: center;
 }
 
 .info, .work, .educ, .comp, .lang, .rest {
@@ -30,14 +37,19 @@ h2 {
     margin-left: 70px;   
 }
 
-.img {
-    border-radius: 20%;
-    font-family: 'Lucida Sans';
+.round_corner {
+    border-radius: 80px;
 }
 
 p {
     font-family: hind;
-    text-align: center;
+    align-items: center;
+}
+
+i {
+    font-size: 50px;
+    color: springgreen;
+    margin: 10px;
 }
 
 
